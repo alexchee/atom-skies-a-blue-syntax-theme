@@ -1,7 +1,7 @@
 {
   "name": "skies-a-blue",
   "theme": "syntax",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Just the default with a light blue background, as if you're drowning in code or looking up at code heaven.",
   "repository": "https://github.com/alexchee/atom-skies-a-blue-syntax-theme",
   "license": "MIT",
