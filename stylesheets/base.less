@@ -139,7 +139,6 @@ atom-text-editor, :host {
 .string {
   color: @orange;
 
-
   &.regexp {
     color: @purple;
 
@@ -192,9 +191,13 @@ atom-text-editor, :host {
   &.class {
     color: @red;
   }
-
+  
+  &.property-name { 
+    color: @red; 
+  }
+  
   &.function  {
-    color: @dark_blue;
+    color: @dark-blue;
 
     &.any-method {
       color: @blue;
@@ -221,7 +224,7 @@ atom-text-editor, :host {
   }
 
   &.other.attribute-name {
-    color: @orange;
+    color: @dark-blue;
 
     &.id {
       color: @blue;
@@ -250,6 +253,7 @@ atom-text-editor, :host {
     background-color: @gray;
     color: @syntax-text-color;
   }
+  
 }
 
 .none {
